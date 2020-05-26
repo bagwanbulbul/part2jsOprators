@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>JavaScript program to check whether the last digit of the three given positive integers is same</title>
+        <script>type= "text/javascript"
+            var num1 = Number(prompt("enter the first number"));
+            var num2 = Number(prompt("enter second number"));
+            var num3 = Number(prompt("enter the third number"));
+            if(num1>0 && num2>0 && num3>0){
+                if(num1%10 == num2%10 && num2%10 == num3%10 && num1%10==num3%10){
+                    document.write(true)
+                }else{
+                    document.write(false)
+                }
+                
+            }
+        </script>
+    </head>
+</html>

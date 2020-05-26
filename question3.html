@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>JavaScript program to check whether the last digit of the three given positive integers is same</title>
+        <script>type= "text/javascript"
+            var num1 = Number(prompt("enter the first number"));
+            var num2 = Number(prompt("enter second number"));
+            var num3 = Number(prompt("enter the third number"));
+            var max = 0;
+            if(num1>num2 && num1>num3){
+                max = num1; 
+                document.write("gratest number is: "+max)
+            }else if(num2>num3 && num2>num1){
+                max = num2;
+                document.write("greatest number is: "+max)
+            }else if(num3>num2 && num3>num1){
+                max = num3
+                document.write("greatest number is: "+max)
+            }
+        </script>
+    </head>
+</html>
